@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from main.views import home
+from main.views import home, login
 
 # api imports
 
@@ -8,5 +8,6 @@ from main.views import home
 
 # general urls
 urlpatterns = [
-    path('', home, name="home"),
+    path('', login, name="login"),
+    path('home', home, name="home"),
 ]

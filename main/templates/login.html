@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Login Carpa
+{% endblock title %}
+
+{% block navbar %}
+{% endblock navbar %}
+
+{% block content %}
+    
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5 p-md-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <img class="card-img-top" src="http://via.placeholder.com/600x800" alt="Card image cap" height="600" width="800">
+                            </div>
+                            <div class="col-lg-6 pt-md-5">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <img class="mb-3 mt-3" src="http://via.placeholder.com/200x200" alt="Card image cap" height="200" width="200">
+                                    </div>
+                                    <form class="user">
+                                        <div class="form-group my-3">
+                                            <input class="form-control form-control-user" type="text" id="InputUser" aria-describedby="UserHelp" placeholder="Usuario" name="User">
+                                        </div>
+                                        <div class="form-group my-3">
+                                            <input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Contraseña" name="password">
+                                        </div>
+                                        <div class="form-group my-3">
+                                              <a class="form-control btn btn-primary btn-block text-white btn-user" type="submit" href="home.html">Login</a>
+                                        </div>
+                                          
+                                        <hr>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 text-center"><a class="small" href="forgot-password.html">Olvido su contraseña?</a></div>
+                                        <div class="col-12 col-md-6 text-center"><a class="small" href="register.html">Crear una cuenta</a></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+{% endblock content %}
+
