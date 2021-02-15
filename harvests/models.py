@@ -26,7 +26,7 @@ class BatchSource(BaseModel, models.Model):
         verbose_name_plural = 'BatchSources'
 
     def __str__(self):
-        return self.place
+        return self.location
 
 class Bunch(BaseModel, models.Model):
     """
