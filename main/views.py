@@ -11,3 +11,6 @@ def login(request):
 
 def people(request):   
     return render(request, "people.html")
+
+def vehicles(request):   
+    return render(request, "vehicles.html")
