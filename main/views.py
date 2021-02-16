@@ -23,3 +23,6 @@ def reports(request):
 
 def create_report(request):   
     return render(request, "create_report.html")
+
+def consult_report(request):   
+    return render(request, "consult_report.html")
