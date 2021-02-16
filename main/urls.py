@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from main.views import home, login, people, vehicles, origin, reports
+from main.views import home, login, people, vehicles, origin, reports, create_report
 
 # api imports
 
@@ -14,4 +14,5 @@ urlpatterns = [
     path('vehicles', vehicles, name="vehicles"),
     path('origin', origin, name="origin"),
     path('reports', reports, name="reports"),
+    path('create-report', create_report, name="create_report"),
 ]

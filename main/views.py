@@ -20,3 +20,6 @@ def origin(request):
 
 def reports(request):   
     return render(request, "reports.html")
+
+def create_report(request):   
+    return render(request, "create_report.html")
