@@ -8,3 +8,6 @@ def home(request):
 
 def login(request):   
     return render(request, "login.html")
+
+def people(request):   
+    return render(request, "people.html")
