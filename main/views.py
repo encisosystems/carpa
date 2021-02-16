@@ -14,3 +14,6 @@ def people(request):
 
 def vehicles(request):   
     return render(request, "vehicles.html")
+
+def origin(request):   
+    return render(request, "origin.html")
