@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from main.views import home, login, people, vehicles
+from main.views import home, login, people, vehicles, origin
 
 # api imports
 
@@ -12,4 +12,5 @@ urlpatterns = [
     path('home', home, name="home"),
     path('people', people, name="people"),
     path('vehicles', vehicles, name="vehicles"),
+    path('origin', origin, name="origin"),
 ]
