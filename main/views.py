@@ -24,5 +24,5 @@ def reports(request):
 def create_report(request):   
     return render(request, "create_report.html")
 
-def consult_report(request):   
-    return render(request, "consult_report.html")
+def query_report(request):   
+    return render(request, "query_report.html")
