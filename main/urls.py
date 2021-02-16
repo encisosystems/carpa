@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from main.views import home, login, people, vehicles, reports
+from main.views import home, login, people, vehicles, origin, reports
 
 # api imports
 
