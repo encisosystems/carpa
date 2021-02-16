@@ -17,3 +17,6 @@ def vehicles(request):
 
 def origin(request):   
     return render(request, "origin.html")
+
+def reports(request):   
+    return render(request, "reports.html")
