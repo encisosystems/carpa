@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Reportes-Carpa
+{% endblock title %}
+
+
+
+{% block content %}
+        <div class="row text-center my-3 mx-lg-5">
+        <h1 class="mt-md-5">Crear reporte</h1>
+        </div>
+
+        <form class="">
+        <div class="form-group my-3 mx-3 mx-lg-5">
+            <label for="exampleFormControlSelect1">Sitio:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>.</option>
+            <option>Lote 1</option>
+            <option>Lote 2</option>
+            <option>Lote 3</option>
+            </select>
+        </div>
+        <div class="form-group my-3 mx-3 mx-lg-5">
+            <label for="exampleFormControlSelect1">Vehículo:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>.</option>
+            <option>VHQ-602</option>
+            <option>VHQ-650</option>
+            </select>
+        </div>
+        <div class="form-group row my-3 mx-3 mx-lg-5">
+            <label class="col-8" for="exampleFormControlTextarea1">Personas:</label>
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Añadir</button>
+            </div>
+            <textarea class="col-12 form-control my-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group row my-3 mx-3 mx-lg-5">
+            <label class="col-8" for="exampleFormControlTextarea1">Imagenes:</label>
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Subir</button>
+            </div>
+            <textarea class="col-12 form-control my-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="text-center">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+        </div>
+        </form>
+{% endblock content %}
