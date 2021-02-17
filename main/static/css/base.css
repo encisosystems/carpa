@@ -4,11 +4,16 @@
 }
 
 .card-header{
-  margin-left: -60px;
+  margin-left: -70px;
   background: none;
   border: none;
+
 }
 
-.card-header:hover {
-  margin-left: -30px;
+.card-header:hover, .tituloco:hover {
+  margin-left: 0px;
+  color: blue;
+  background-color: white;
 }
+
+
