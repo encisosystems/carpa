@@ -12,3 +12,4 @@ def vehicles(request):
 
 def origin(request):   
     return render(request, "origin.html")
+    
