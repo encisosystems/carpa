@@ -67,6 +67,7 @@ class BunchBatchAdmin(admin.ModelAdmin):
             'fields': BaseModelAdmin.readonly_fields
         })
     )
+    raw_id_fields = ('batch_source', 'bunch')
     list_display = ('id', 'batch_source', 'bunch')
     list_filter = ('batch_source', 'bunch')
     list_display_links = list_display
