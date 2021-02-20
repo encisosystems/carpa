@@ -9,7 +9,7 @@ class CategoryBunch(BaseModel, models.Model):
 
     """
 
-    name = models.CharField(max_length=128)
+    name = models.CharField(max_length=128, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
 
     class Meta:
