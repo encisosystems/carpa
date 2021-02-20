@@ -60,3 +60,18 @@ class Bunch(BaseModel, models.Model):
 
     def __str__(self):
         return f'Bunch-{self.pk}'
+
+
+class BunchBatch(BaseModel, models.Model):
+    bunch = models.ForeignKey(Bunch, on_delete=models.CASCADE)
+    batch_source = models.ForeignKey(BatchSource, on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Bunch Batch'
+        verbose_name_plural = 'Bunches Batch'
+
+    def __str__(self):
+        return f'Bunch Batch-{self.pk}'
+
+
+

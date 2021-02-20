@@ -8,6 +8,8 @@
 .env/
 *.mo
 
+
+venv/
 __pycache__
 MANIFEST
 dist/
