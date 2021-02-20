@@ -16,7 +16,7 @@ class BunchAdmin(admin.ModelAdmin):
         })
     )
     list_display = ('id', 'category', 'creation_date', 'update_date')
-    list_filter = ('category',)
+    list_filter = ('category', 'creation_date')
 
 
 @register(CategoryBunch)
@@ -31,6 +31,7 @@ class CategoryBunchAdmin(admin.ModelAdmin):
         })
     )
     list_display = ('id', 'name', 'creation_date', 'update_date')
+    list_filter = ('creation_date', )
 
 
 @register(BatchSource)
