@@ -1,0 +1,37 @@
+:root {
+  --blue-color: #093456;
+  --green-color: #009200;
+  --green2-color: #7EAE1A;
+  --white-color: #EDE9D4;
+  --orange-color: #FF6700;
+}
+
+
+body {
+    background-color: var(--white-color);
+  }
+
+.page-footer{
+    background-color: var(--blue-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.card-menu{
+  text-decoration: none !important;
+}
+
+.card-header{
+  margin-left: -70px;
+  background: none;
+  border: none;
+
+}
+
+.card-header:hover, .tituloco:hover {
+  margin-left: 0px;
+  color: blue;
+  background-color: white;
+}
