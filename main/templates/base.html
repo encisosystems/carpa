@@ -26,13 +26,11 @@
     <div class="container">
 
         {% block navbar %}
-        <div class="row">
-            <nav class="navbar ">
-                
-                <a class="navbar-brand" href="home"><h3>Carpa</h3></a>
-                <h3>Carpa</h3>
+            <nav class="navbar row">
+            <a class="navbar-brand" href="/home">Carpa</a>
+            <form class="form-inline">
                 <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="button btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Usuario
                 </button>
                 <div class="dropdown-menu">
@@ -42,9 +40,9 @@
                         <li><a class="dropdown-item" href="/">Salir</a></li>
                 </div>
                 </div>
-            
+            </form>
             </nav>
-        </div>
+       
         {% endblock navbar %}
 
         {% block content %}

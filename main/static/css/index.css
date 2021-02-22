@@ -8,30 +8,48 @@
 
 
 body {
-    background-color: var(--white-color);
+    background-color: var(--blue-color);
   }
 
 .page-footer{
-    background-color: var(--blue-color);
+    background-color: var(--orange-color);
     position: absolute;
     bottom: 0;
     width: 100%;
     color: white;
 }
 
+.navbar {
+   background-color: var(--orange-color);
+}
+
+.navbar-brand{
+  color: var(--white-color) !important;
+}
+
+.content{
+  background-color: var(--white-color) !important;
+  min-height: 90vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.button{
+   background-color: var(--green2-color);
+}
+
 .card-menu{
   text-decoration: none !important;
+  height: 18vh;
+
 }
 
 .card-header{
-  margin-left: -70px;
-  background: none;
-  border: none;
-
+  background-color: var(--blue-color);
 }
 
 .card-header:hover, .tituloco:hover {
-  margin-left: 0px;
-  color: blue;
-  background-color: white;
+  color: var(--white-color);
+  background-color: var(--green2-color);
 }
