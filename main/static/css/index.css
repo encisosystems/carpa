@@ -13,14 +13,20 @@ body {
 
 .page-footer{
     background-color: var(--blue-color);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
     color: white;
 }
 
+.page-footer-login{
+  background-color: var(--blue-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
 .navbar {
-   background-color: var(--orange-color);
+   background-color: var(--blue-color);
 }
 
 .navbar-brand{
@@ -28,7 +34,7 @@ body {
 }
 
 .content{
-  background-color: var(--white-color) !important;
+  background-color: white !important;
   min-height: 90vh;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -44,6 +50,18 @@ body {
   color: white;
 }
 
+.button-navbar{
+  background-color: var(--blue-color) !important;
+  color: white;
+  border-color: white;
+}
+
+.button-navbar:hover{
+  background-color: var(--orange-color) !important;
+  color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+
 .card-menu{
   text-decoration: none !important;
   height: 18vh;
@@ -55,6 +73,6 @@ body {
 }
 
 .card-header:hover, .tituloco:hover {
-  color: var(--white-color);
-  background-color: white;
+  color: var(--blue-color);
+  background-color:var(--orange-color);
 }

@@ -30,7 +30,7 @@
             <a class="navbar-brand" href="/home">Carpa</a>
             <form class="form-inline">
                 <div class="btn-group">
-                <button type="button" class="button btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="button-navbar btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Usuario
                 </button>
                 <div class="dropdown-menu">
@@ -49,21 +49,31 @@
 
         {% endblock content %}
 
+        {% block footer %}
+            <footer class="row page-footer font-small">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 mx-auto">© 2021 Copyright:
+                    <a className="text-white" href="https://www.encisosystems.com/">
+                        <img class="" src="{% static 'images/Logo-white-30x87.png' %}" alt="Card image cap" height="30" width="87">
+                    </a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        {% endblock footer %}
+
     </div>
-
-    {% block footer %}
-    <footer class="page-footer font-small">
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2021 Copyright:
-        <a className="text-white" href="https://www.encisosystems.com/">
-            <img class="" src="{% static 'images/Logo-white-30x87.png' %}" alt="Card image cap" height="30" width="87">
-         </a>
-    </div>
-    <!-- Copyright -->
-
-    </footer>
-    {% endblock footer %}
+    {% block footer_login %}
+        <footer class="page-footer-login font-small">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                <a className="text-white" href="https://www.encisosystems.com/">
+                    <img class="" src="{% static 'images/Logo-white-30x87.png' %}" alt="Card image cap" height="30" width="87">
+                </a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    {% endblock footer_login %}
+    
    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
