@@ -40,7 +40,8 @@ class Bunch(BaseModel, models.Model):
     """
 
     category = models.ForeignKey(CategoryBunch, on_delete=models.CASCADE)
-    weight = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
+    weight = models.DecimalField(
+        max_digits=5, decimal_places=2, null=True, blank=True)
 
     class Meta:
         verbose_name = 'Bunch'
@@ -48,3 +49,24 @@ class Bunch(BaseModel, models.Model):
 
     def __str__(self):
         return f'Bunch-{self.pk}'
+
+
+class Vehicle(BaseModel, models.Model):
+    """
+
+    """
+
+    enrollment = models.CharField(max_length=5)
+    modelVehicle = models.IntegerField(default=0)
+    brand = models.CharField(max_length=20)
+    driver = models.CharField(max_length=30)
+
+    class Meta:
+        verbose_name = 'Vehicle'
+        verbose_name_plural = 'Vehicles'
+
+    def __str__(self):
+        return self.enrollment
+
+    def get_absolute_url(self):
+        return reverse("_detail", kwargs={"pk": self.pk})

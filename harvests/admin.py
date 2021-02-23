@@ -1,5 +1,5 @@
 from django.contrib import admin
-from harvests.models import Bunch, CategoryBunch, BatchSource
+from harvests.models import Bunch, CategoryBunch, BatchSource, Vehicle
 from main.admin import BaseModelAdmin
 
 
@@ -45,3 +45,20 @@ class BatchSourceAdmin(admin.ModelAdmin):
     )
     list_display = ('id', 'city', 'creation_date', 'update_date')
     list_filter = ('city', 'creation_date')
+
+
+@admin.register(Vehicle)
+class VehicleAdmin(admin.ModelAdmin):
+    readonly_fields = BaseModelAdmin.readonly_fields
+    fieldsets = (
+        (None, {
+            'fields': ('enrollment', 'modelVehicle', 'brand', 'driver'),
+        }),
+        ('Audit', {
+            'fields': BaseModelAdmin.readonly_fields
+        })
+    )
+    list_display = ('id', 'enrollment', 'modelVehicle', 'brand',
+                    'driver', 'creation_date', 'update_date')
+    list_filter = ('enrollment', 'modelVehicle',
+                   'brand', 'driver', 'creation_date')
