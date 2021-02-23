@@ -7,15 +7,13 @@
 
 
 {% block content %}
-
-        <div class="row text-center my-1 mx-lg-5">
+    <div class="content row ">
+        <div class="col-12 text-center my-1 mx-lg-5">
             <h1 class="mt-md-3">Consultar reporte</h1>
         </div>
 
-        <div class="row my-1 px-md-5">
-            <div class="col-md-4"></div>
-
-            <div class="col input-group">
+        <div class="col-12 my-1 px-md-5">
+            <div class="col-12 col-md-6 input-group offset-md-3">
                 <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button">Buscar</button>
@@ -24,7 +22,7 @@
 
             <div class="col-md-4"></div>
         </div>
-        <div class="row my-3 px-md-5 mx-md-5">
+        <div class="col-12 my-3 px-md-5">
             <div class="table-responsive text-center">
                 
                 <table id="mytable" class="table table-bordred table-striped">
@@ -57,7 +55,7 @@
             </div>
         </div>
 
-           <div class="row my-3 px-md-5 mx-md-5">
+        <div class="col-12 my-3 px-md-5 ">
             <div class="table-responsive text-center">
                 
                 <table id="mytable" class="table table-bordred table-striped">
@@ -105,7 +103,7 @@
             </div>
         </div>
 
-        <div class="row my-1 px-md-5">
+        <div class="col-12 my-1 px-md-5">
             <div class="col-md-8"></div>
 
             <div class="col text-center mb-1">
@@ -113,6 +111,10 @@
                 <button type="submit" class="btn btn-primary">Descargar</button>
                 <button type="submit" class="btn btn-primary">imprimir</button>
             </div>
-
         </div>
+    </div>
 {% endblock content %}
+
+{% block footer_login %}
+
+{% endblock footer_login %}

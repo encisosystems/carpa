@@ -8,17 +8,17 @@
 
 
 body {
-    background-color: var(--green-color);
+    background-color: var(--blue-color);
   }
 
 .page-footer{
-    background-color: var(--blue-color);
+    background-color: var(--green-color);
 
     color: white;
 }
 
 .page-footer-login{
-  background-color: var(--blue-color);
+  background-color: var(--green-color);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar {
-   background-color: var(--blue-color);
+   background-color: var(--green-color);
 }
 
 .navbar-brand{
@@ -35,7 +35,7 @@ body {
 
 .content{
   background-color: white !important;
-  min-height: 90vh;
+  min-height: 87vh;
   overflow-y: hidden;
   overflow-x: hidden;
 
@@ -51,15 +51,15 @@ body {
 }
 
 .button-navbar{
-  background-color: var(--blue-color) !important;
+  background-color: var(--green-color) !important;
   color: white;
   border-color: white;
 }
 
 .button-navbar:hover{
-  background-color: var(--orange-color) !important;
-  color: var(--blue-color);
-  border-color: var(--blue-color);
+  background-color: white !important;
+  color: var(--green-color) !important;
+  border: 2px solid var(--green-color);
 }
 
 .card-menu{
@@ -74,5 +74,6 @@ body {
 
 .card-header:hover, .tituloco:hover {
   color: var(--blue-color);
-  background-color:var(--orange-color);
+  background-color: white;
+  border: 5px solid var(--blue-color);
 }

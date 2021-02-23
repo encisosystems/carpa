@@ -7,13 +7,12 @@
 
 
 {% block content %}
-
-        <div class="row text-center my-3 ">
+    <div class="content row ">
+        <div class="col-12 text-center my-3 ">
             <h1 class=" ">Vehículos</h1>
         </div>
 
-         <div class="row my-3 px-md-5">
-            <div class="col-md-6"></div>
+         <div class="col-12 col-md-6 my-3 px-md-5 offset-md-6">
             <div class="col input-group">
                 <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
@@ -23,7 +22,7 @@
             </div>
         </div>
 
-        <div class="row my-3 px-md-5">
+        <div class="col-12 my-3 px-md-5">
             <div class="table-responsive px-3">
                 
                 <table id="mytable" class="table table-bordred table-striped">
@@ -63,9 +62,8 @@
             </div>
         </div>
 
-        <div class="row my-3">
-            <div class="col-4 col-md-8 "></div>
-            <nav class="col mx-4">
+     <div class="col-12 col-md-3 my-3 offset-md-9">
+            <nav class="">
                 <ul class="pagination">
                     <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
@@ -83,5 +81,9 @@
                 </ul>
             </nav>
         </div>
-
+    </div>
 {% endblock content %}
+
+{% block footer_login %}
+
+{% endblock footer_login %}

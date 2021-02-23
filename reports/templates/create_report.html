@@ -7,11 +7,12 @@
 
 
 {% block content %}
-        <div class="row text-center my-3 mx-lg-5">
+    <div class="content row ">
+        <div class="col-12 text-center my-3 mx-lg-5">
         <h1 class="mt-md-5">Crear reporte</h1>
         </div>
 
-        <form class="">
+        <form class="col-12">
         <div class="form-group my-3 mx-3 mx-lg-5">
             <label for="exampleFormControlSelect1">Sitio:</label>
             <select class="form-control" id="exampleFormControlSelect1">
@@ -47,4 +48,9 @@
                 <button type="submit" class="btn btn-primary">Guardar</button>
         </div>
         </form>
+     </div>
 {% endblock content %}
+
+{% block footer_login %}
+
+{% endblock footer_login %}
