@@ -8,11 +8,11 @@
 
 
 body {
-    background-color: var(--blue-color);
+    background-color: var(--green-color);
   }
 
 .page-footer{
-    background-color: var(--orange-color);
+    background-color: var(--blue-color);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -35,8 +35,13 @@ body {
 
 }
 
+.title{
+  color: var(--green-color);
+}
+
 .button{
-   background-color: var(--green2-color);
+  background-color: var(--green-color) !important;
+  color: white;
 }
 
 .card-menu{
@@ -51,5 +56,5 @@ body {
 
 .card-header:hover, .tituloco:hover {
   color: var(--white-color);
-  background-color: var(--green2-color);
+  background-color: white;
 }
