@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-brand{
-  color: var(--white-color) !important;
+  color: white !important;
 }
 
 .content{
