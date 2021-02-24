@@ -13,8 +13,8 @@ class CategoryBunch(BaseModel, models.Model):
     description = models.TextField(null=True, blank=True)
 
     class Meta:
-        verbose_name = 'BunchCategory'
-        verbose_name_plural = 'BunchCategories'
+        verbose_name = 'Bunch Category'
+        verbose_name_plural = 'Bunch Categories'
 
     def __str__(self):
         if self.name:
