@@ -56,10 +56,12 @@ if os.environ.get('DATABASE_URL', ''):
     DATABASES = {
         'default': dj_database_url.config()
     }
+    DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
+
 else:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': 'django.contrib.gis.db.backends.postgis',
             'NAME': 'postgres',
             'USER': 'postgres',
             'PASSWORD': 'postgres',

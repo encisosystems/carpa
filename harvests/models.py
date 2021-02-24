@@ -1,28 +1,40 @@
+
 from django.db import models
+# from django.db.models.signals import post_save
 from main.models import BaseModel
 
-class CategoryBunch(BaseModel, models.Model):
-    BUNCH_TYPE = (
-        ('GREEN', 'GREEN'),
-        ('MATURE', 'MATURE'),
-        ('OVERMATURE', 'OVERMATURE'),
-        ('MATURE', 'MATURE'),
-        ('COBS', 'COBS'),
-        ('IMPURITIES', 'IMPURITIES')
-    )
 
-    name = models.CharField(choices=BUNCH_TYPE, max_length=128)
+class CategoryBunch(BaseModel, models.Model):
+    """
+
+    """
+
+    name = models.CharField(max_length=128, blank=True)
+    description = models.TextField(null=True, blank=True)
 
     class Meta:
-        verbose_name = 'Category'
-        verbose_name_plural = 'Categories'
+        verbose_name = 'Bunch Category'
+        verbose_name_plural = 'Bunch Categories'
 
     def __str__(self):
-        return self.name
+        if self.name:
+            return self.name
+        else:
+            return f'Category-{self.pk}'
+
+
+# def show_location(sender, instance, **kwargs):
+#     print(f'My coordinates: {instance.location}')
+#
+# post_save.connect(show_location, sender=BatchSource)
 
 
 class Bunch(BaseModel, models.Model):
-    category = models.OneToOneField(to=CategoryBunch, on_delete=models.CASCADE)
+    """
+
+    """
+
+    category = models.ForeignKey(CategoryBunch, on_delete=models.CASCADE, blank=True)
     weight = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
 
     class Meta:
@@ -30,4 +42,4 @@ class Bunch(BaseModel, models.Model):
         verbose_name_plural = 'Bunches'
 
     def __str__(self):
-        return self.pk
+        return f'Bunch-{self.pk}'

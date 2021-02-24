@@ -1,0 +1,1771 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-02-12T20:25:10.642Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "jenciso",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-02-12T20:28:29.672Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "jenciso",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-02-12T20:29:19.544Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "drestrepo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-02-12T20:29:35.134Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "dpalacios",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-02-12T20:29:42.697Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "dpalacios",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-02-12T20:29:54.434Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "drestrepo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-02-12T20:31:25.867Z",
+        "user": 3,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "dpalacios",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-02-12T20:32:53.937Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "drestrepo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-02-13T16:32:43.227Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "arodriguez",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-02-13T16:33:16.684Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "arodriguez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-02-13T16:43:25.498Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "arodriguez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-02-13T16:50:27.695Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "obaquero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-02-13T16:50:51.980Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "obaquero",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-02-13T16:51:25.880Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "emoreno",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-02-13T16:51:57.266Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "emoreno",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-02-13T16:52:31.747Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "fcaicedo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-02-13T16:52:57.259Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "fcaicedo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-02-13T16:53:30.204Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "cgaray",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-02-13T16:53:50.750Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "cgaray",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-02-13T16:54:19.597Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ccarranza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-02-13T16:54:46.115Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ccarranza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-02-13T16:55:11.416Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "pcaro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-02-13T16:55:34.324Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "pcaro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-02-13T16:56:15.058Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "jzapata",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-02-13T16:56:51.308Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "jzapata",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-02-13T16:57:12.761Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "nborda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-02-13T16:57:32.324Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "nborda",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-02-13T16:59:52.184Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "pcaro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-02-13T16:59:59.910Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ccarranza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-02-13T17:00:10.160Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "cgaray",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-02-13T17:00:13.556Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "cgaray",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-02-13T17:00:31.416Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "emoreno",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-02-13T17:00:36.171Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "fcaicedo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-02-13T17:00:46.682Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "jzapata",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-02-13T17:01:03.163Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "nborda",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-02-13T17:01:08.072Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "obaquero",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-02-13T17:02:22.166Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "13",
+        "object_repr": "cvalencia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-02-13T17:02:40.448Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "13",
+        "object_repr": "cvalencia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-02-13T17:03:29.608Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "14",
+        "object_repr": "rhuertas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-02-13T17:03:48.624Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "14",
+        "object_repr": "rhuertas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-02-13T17:12:20.931Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ccarranza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-02-13T17:12:31.734Z",
+        "user": 2,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "EIS-Group",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-02-13T17:13:02.712Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ccarranza",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-02-13T17:13:24.030Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "cgaray",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-02-13T17:13:31.265Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "13",
+        "object_repr": "cvalencia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-02-13T17:13:58.021Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "14",
+        "object_repr": "rhuertas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-02-13T17:14:04.111Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "pcaro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-02-13T17:14:10.985Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "obaquero",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-02-13T17:14:19.601Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "nborda",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-02-13T17:14:25.670Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "jzapata",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-02-13T17:14:53.489Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "dpalacios",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-02-13T17:15:01.030Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "fcaicedo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-02-13T17:15:10.587Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "emoreno",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-02-13T17:18:05.911Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "15",
+        "object_repr": "otoro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-02-13T17:18:32.916Z",
+        "user": 4,
+        "content_type": 4,
+        "object_id": "15",
+        "object_repr": "otoro",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-02-15T18:46:58.791Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "maturity:green",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-02-15T18:47:10.358Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "maturity:mature",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-02-15T18:47:32.194Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Bunch-1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-02-17T12:32:07.868Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "maturity:cob",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-02-17T12:40:23.824Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "2",
+        "object_repr": "IS-Web Engineering",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-02-17T12:40:54.270Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "EIS-Software Project Management",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-02-19T15:40:05.703Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "16",
+        "object_repr": "lpatarroyo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-02-19T15:42:02.936Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "16",
+        "object_repr": "lpatarroyo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-02-19T15:44:55.283Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "17",
+        "object_repr": "broncancio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-02-19T15:45:09.180Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "17",
+        "object_repr": "broncancio",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-02-19T15:50:05.468Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "18",
+        "object_repr": "cmoreno",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-02-19T15:50:17.190Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "18",
+        "object_repr": "cmoreno",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2021-02-19T15:51:57.524Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "19",
+        "object_repr": "hdiaz",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2021-02-19T15:52:52.992Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "19",
+        "object_repr": "hdiaz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2021-02-19T15:53:42.294Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "20",
+        "object_repr": "ncaraballo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2021-02-19T15:53:57.957Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "20",
+        "object_repr": "ncaraballo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2021-02-19T15:54:48.941Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "19",
+        "object_repr": "hdiaz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2021-02-19T15:57:54.469Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "21",
+        "object_repr": "zmejia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2021-02-19T15:58:00.368Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "21",
+        "object_repr": "zmejia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2021-02-19T16:00:04.785Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "22",
+        "object_repr": "jvaron",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2021-02-19T16:00:11.389Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "22",
+        "object_repr": "jvaron",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2021-02-19T16:00:43.577Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "23",
+        "object_repr": "cparrado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2021-02-19T16:00:53.539Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "23",
+        "object_repr": "cparrado",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2021-02-19T16:02:57.875Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "24",
+        "object_repr": "ahernandez",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2021-02-19T16:03:10.837Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "24",
+        "object_repr": "ahernandez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2021-02-19T16:03:43.444Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "25",
+        "object_repr": "jleon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2021-02-19T16:04:40.802Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "25",
+        "object_repr": "jleon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2021-02-19T16:06:47.371Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "26",
+        "object_repr": "mavellaneda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2021-02-19T16:06:57.954Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "26",
+        "object_repr": "mavellaneda",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2021-02-19T16:11:00.937Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "27",
+        "object_repr": "yhernandez",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2021-02-19T16:11:13.951Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "27",
+        "object_repr": "yhernandez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2021-02-19T16:24:27.915Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "28",
+        "object_repr": "lparrado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2021-02-19T16:24:44.655Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "28",
+        "object_repr": "lparrado",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2021-02-19T16:25:55.775Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "29",
+        "object_repr": "avillamil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2021-02-19T16:26:13.798Z",
+        "user": 2,
+        "content_type": 4,
+        "object_id": "29",
+        "object_repr": "avillamil",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Staff status\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "EIS-Software Project Management",
+        "permissions": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+        "name": "IS-Web Engineering",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$jKxTl0tPc9si$YOpXRU1lQIUSrXedKtKOe8uXC2btUMwAhuj/8cxm0/s=",
+        "last_login": "2021-02-13T01:17:33.726Z",
+        "is_superuser": true,
+        "username": "jenciso",
+        "first_name": "Javier",
+        "last_name": "Enciso",
+        "email": "jenciso@encisosystems.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-12T20:21:38Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$wt4JhheURsi6$pA/LXblsYZTtaZbFwAM1QslB69CmO40S8/4WCn3tA0Q=",
+        "last_login": "2021-02-12T20:31:53Z",
+        "is_superuser": true,
+        "username": "drestrepo",
+        "first_name": "Daniel",
+        "last_name": "Restrepo",
+        "email": "danielrestrepo9725@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-12T20:29:19Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$EyZS13Ws5GQw$fn0LVoJGtWb7sxezg9lwMjDsjBts5fU2iqF1jmf+1lc=",
+        "last_login": "2021-02-12T20:30:43Z",
+        "is_superuser": true,
+        "username": "dpalacios",
+        "first_name": "Diego",
+        "last_name": "Palacios",
+        "email": "diferpaho@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-12T20:29:34Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$Omo6th8DXDtV$l5OrR7fjdsMNu0lgZtnF4K106c2N/TjTzb5i1wGUyas=",
+        "last_login": "2021-02-13T16:42:21Z",
+        "is_superuser": true,
+        "username": "arodriguez",
+        "first_name": "Andres",
+        "last_name": "Rodríguez",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:32:42Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$58DHli3CUiZZ$bM+ITKHK7iedQ7Xe7dz/MLHpxo4+/eY3tlxjY6dZ4AM=",
+        "last_login": "2021-02-13T17:03:57Z",
+        "is_superuser": false,
+        "username": "obaquero",
+        "first_name": "Orcar Andres",
+        "last_name": "Baquero",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:50:27Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$cEgkajGBIOR0$fbfsoOp9pa043idd1mQG2KvpugGIM/uPtUlowyX6Ylg=",
+        "last_login": "2021-02-13T17:18:23.315Z",
+        "is_superuser": false,
+        "username": "emoreno",
+        "first_name": "ELKIN YESID",
+        "last_name": "MORENO HERNÁNDEZ",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:51:25Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$rfhv7xHvs47r$Wa60Dl/pbezi3mfANcwn1kzPjQyNn1gtJtp3DLQtjLc=",
+        "last_login": "2021-02-13T17:15:56.453Z",
+        "is_superuser": false,
+        "username": "fcaicedo",
+        "first_name": "FABRICIO",
+        "last_name": "CAICEDO MOSQUERA",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:52:31Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$i6vm1EPjq3Yk$Q+5CDxVcdC9dNY7sMC1n8IvRtCzPoFX45EHEZqioMls=",
+        "last_login": "2021-02-13T17:09:41Z",
+        "is_superuser": false,
+        "username": "cgaray",
+        "first_name": "CARLOS ENRIQUE",
+        "last_name": "GARAY MORENO",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:53:29Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$cT1U67n6Jmlm$9Zcmfm3qiy3ibRwUDcVHcp7ElXuYj1KaOfxG9+Mq+wM=",
+        "last_login": "2021-02-13T17:15:49.220Z",
+        "is_superuser": false,
+        "username": "ccarranza",
+        "first_name": "CRISTIAN DAVID",
+        "last_name": "CARRANZA HOMES",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:54:19Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$IPbKr45lbbkG$x2HDhUtzn9R9P5kLtWPEbvtKygs5DoYRAw46VtXj1Ho=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pcaro",
+        "first_name": "PEDRO NEL",
+        "last_name": "CARO DIAZ",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:55:11Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$TGMQVCzfNsut$pLEnOp8CxkEq5gNddXlUZwG0uGsKX8NRC3eHvfilQWo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "jzapata",
+        "first_name": "JUAN DAVID",
+        "last_name": "ZAPATA",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:56:14Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$OyGt7Edtek22$IwjtDi/h6ehIgdxtpupQNR51GZvm/OvY/z8M2WT+4dI=",
+        "last_login": "2021-02-13T17:10:57Z",
+        "is_superuser": false,
+        "username": "nborda",
+        "first_name": "NICOLAS ALEXANDER",
+        "last_name": "BORDA CAMACHO",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T16:57:12Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$VBmnl29qlRvs$tP+/4Mmagc0TNCsnPTg12JiMjMYY52VY+BxIm6pNI58=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "cvalencia",
+        "first_name": "CATERINE ASTRID",
+        "last_name": "VALENCIA CORDERO",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T17:02:21Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$9VVg38w9JZtN$1F+XidbgbES09c+mJYZnq1Ku7l/M7oejlCqOH1K6fAo=",
+        "last_login": "2021-02-13T17:15:58.135Z",
+        "is_superuser": false,
+        "username": "rhuertas",
+        "first_name": "RAFAEL ANTONIO",
+        "last_name": "HUERTAS CASTRO",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T17:03:29Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$jYjdTtrAimT6$xce/ThwC+enFCooeHZmLbKTGWSbk9FtOW0i/uSlfit0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "otoro",
+        "first_name": "OSCAR MIGUEL",
+        "last_name": "TORO TORRES",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-13T17:18:05Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$opuWVxqWOReF$G6yfJnyVDD5w4tyTwjVGN8cProSE99hBtnjpjazIq9I=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "lpatarroyo",
+        "first_name": "",
+        "last_name": "",
+        "email": "linda.patarroyo@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:40:05Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$bozcUCgnRAq4$VC8aCoTeufK6ISp37Ao4/UgI8qxPZ2Uli39xok+VREs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "broncancio",
+        "first_name": "",
+        "last_name": "",
+        "email": "brayan.roncancio@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:44:55Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$9Q7Jsdaah4Ti$4tbY7dnWCG47W7IiV9LpCWvT9CVe8Ulmbewx/Ytc8Gk=",
+        "last_login": "2021-02-19T15:52:17.208Z",
+        "is_superuser": false,
+        "username": "cmoreno",
+        "first_name": "",
+        "last_name": "",
+        "email": "candido.moreno@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:50:05Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$eYLOtCUBYK5f$riqVYJlybIMcs+hSdpa18G60qIDtLPRfnbSMAn2e3is=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "hdiaz",
+        "first_name": "",
+        "last_name": "",
+        "email": "hermes.diaz@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:51:57Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$IhfijmpHCoow$mIlTS/H6IpbMGYzv1gBkC6HLZdp64sXQzuWRgC+aNOI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ncaraballo",
+        "first_name": "",
+        "last_name": "",
+        "email": "nicolas.caraballo@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:53:42Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$XaJ4sxs9j7LR$QjSwXMV+1y20tBcfdDvFN+E1Ahk7EAohHksV2OLo/nk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "zmejia",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T15:57:54Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$r4552Ne29k2h$QqsLraV3HFGePFdsISpaajklO+VuRJBiSzzWykdocFE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "jvaron",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:00:04Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 23,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$2cWmHOgCjaJC$O0iqD3LvUCpIufWTFW4PeflHaVC7RAh3N3JPUd978DE=",
+        "last_login": "2021-02-19T17:09:16.425Z",
+        "is_superuser": false,
+        "username": "cparrado",
+        "first_name": "",
+        "last_name": "",
+        "email": "cristian.parrado.barreto@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:00:43Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$s86QIENKZeWE$y1O/z2BJKQ07Dy2a4GaZrHqJlCrSUw/Re2uNt6nvIXY=",
+        "last_login": "2021-02-19T16:32:55.617Z",
+        "is_superuser": false,
+        "username": "ahernandez",
+        "first_name": "",
+        "last_name": "",
+        "email": "andres.hernandez.quevedo@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:02:57Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$GzZm48y9dhP7$hzsbwEBn2sqhJPpDSIlSnL8BUNMBW3tPyMepr+nGjd4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "jleon",
+        "first_name": "",
+        "last_name": "",
+        "email": "johan.leon@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:03:43Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$kJPwR6VQOmmK$nXRECNPlunjTcLVTUA3M52NbafmPvS0/RjdkJR75adQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "mavellaneda",
+        "first_name": "",
+        "last_name": "",
+        "email": "martha.avellaneda@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:06:47Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 27,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$LQ0Cv8423qgR$bD648ldmr7YU3ftd0+hZ0BDy/P0MDi3pCPNh34DOvkY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "yhernandez",
+        "first_name": "",
+        "last_name": "",
+        "email": "yojan.hernandez@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:11:00Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 28,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$kc99aIPQj3Zd$WioUMP7nbG7rsus329gCwimfyaVjaoMATksObahjVSA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "lparrado",
+        "first_name": "",
+        "last_name": "",
+        "email": "laura.parrado.villalobos@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:24:27Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 29,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$kiHWXjbauCkb$KtKiLcp8g9f4H5Zqtlp96x0FKIEMdP1hO6iF2uf87XA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "avillamil",
+        "first_name": "",
+        "last_name": "",
+        "email": "adrian.villamil@unillanos.edu.co",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-02-19T16:25:55Z",
+        "groups": [
+            2
+        ],
+        "user_permissions": []
+    }
+}
+]

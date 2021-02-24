@@ -58,6 +58,21 @@ docker-compose up
 > If it's first time, the images will be created. Sometimes the project doesn't run at first time because
 > the init of postgres, just run again `docker-compose up` and it will work.
 
+### When there are changes in the database container ###
+
+It may be useful to run:
+
+```
+docker-compose down --volumes
+```
+ 
+And again run:
+
+```
+docker-compose up --build
+```
+
+
 *CARPA app will run in url `localhost:8000`*
 
 To recreate the docker images after dependencies changes run:

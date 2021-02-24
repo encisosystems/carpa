@@ -1,0 +1,18 @@
+
+.card-menu{
+  text-decoration: none !important;
+}
+
+.card-header{
+  margin-left: -70px;
+  background: none;
+  border: none;
+
+}
+
+.card-header:hover, .tituloco:hover {
+  margin-left: 0px;
+  color: blue;
+  background-color: white;
+}
+
