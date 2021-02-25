@@ -53,7 +53,7 @@ class DriverAdmin(admin.ModelAdmin):
         (None, {
             'fields': (BaseModelAdmin.readonly_fields,)
         }),
-        ('Driver', {
+        ('Person', {
             'fields': ('name', 'address', 'email', 'phone', 'web')
         }),
     )
@@ -66,13 +66,13 @@ class VehicleAdmin(admin.ModelAdmin):
     readonly_fields = BaseModelAdmin.readonly_fields
     fieldsets = (
         (None, {
-            'fields': ('enrollment', 'modelVehicle', 'brand', 'driver'),
+            'fields': ('plate', 'model', 'brand', 'details', 'driver'),
         }),
         ('Audit', {
             'fields': BaseModelAdmin.readonly_fields
         })
     )
-    list_display = ('id', 'enrollment', 'modelVehicle', 'brand',
+    list_display = ('id', 'plate', 'model', 'brand', 'details',
                     'driver', 'creation_date', 'update_date')
     list_filter = ('enrollment', 'modelVehicle',
                    'brand', 'driver', 'creation_date')
