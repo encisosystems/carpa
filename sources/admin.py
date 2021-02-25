@@ -74,5 +74,5 @@ class VehicleAdmin(admin.ModelAdmin):
     )
     list_display = ('id', 'plate', 'model', 'brand', 'details',
                     'driver', 'creation_date', 'update_date')
-    list_filter = ('enrollment', 'modelVehicle',
+    list_filter = ('plate', 'model',
                    'brand', 'driver', 'creation_date')
