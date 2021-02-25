@@ -73,10 +73,11 @@ class Vehicle(BaseModel, models.Model):
     """
     """
 
-    enrollment = models.CharField(max_length=5)
-    modelVehicle = models.IntegerField(default=0)
-    brand = models.CharField(max_length=20)
-    driver = models.ForeignKey(Driver, on_delete=models.CASCADE)
+    plate = models.CharField(max_length=8, blank=True)
+    model = models.CharField(max_length=64, blank=True)
+    brand = models.CharField(max_length=20, blank=True)
+    details = models.CharField(max_length=128, blank=True)
+    driver = models.ForeignKey(Driver, on_delete=models.CASCADE, blank = true)
 
     class Meta:
         verbose_name = 'Vehicle'
