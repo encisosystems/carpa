@@ -49,3 +49,23 @@ class Parcel(BaseModel):
             return self.name
         else:
             return f'{self.owner}-parcel-{self.pk}'
+
+
+class Driver(BaseModel):
+    """
+
+    """
+
+    name = models.CharField(max_length=128, blank=True)
+    address = models.CharField(max_length=64, blank=True)
+    email = models.EmailField(max_length=64, blank=True)
+    phone = models.CharField(max_length=16, blank=True)
+    web = models.CharField(max_length=128, blank=True)
+
+    class Meta:
+        verbose_name = 'Driver'
+        verbose_name_plural = 'Drivers'
+    
+    def __str__(self):
+        return self.name
+
