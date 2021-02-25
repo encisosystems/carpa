@@ -41,9 +41,9 @@ class HarvesterAdmin(admin.ModelAdmin):
         (None, {
             'fields': (BaseModelAdmin.readonly_fields,)
         }),
-        ('Category', {
+        ('Person', {
             'fields': ('name', 'address', 'email', 'phone', 'web')
         })
     )
     list_display = ('id', 'name', 'creation_date', 'update_date')
-    list_filter = ('name',)
+    list_filter = ('creation_date', 'is_active')
