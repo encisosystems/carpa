@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.gis import admin as gis_admin
 from main.admin import BaseModelAdmin
-from sources.models import Parcel, ParcelOwner, Driver
+from sources.models import Parcel, ParcelOwner, Driver, Vehicle
 
 
 @admin.register(ParcelOwner)
@@ -59,3 +59,20 @@ class DriverAdmin(admin.ModelAdmin):
     )
     list_display = ('id', 'name', 'creation_date', 'update_date')
     list_filter = ('creation_date',)
+
+
+@admin.register(Vehicle)
+class VehicleAdmin(admin.ModelAdmin):
+    readonly_fields = BaseModelAdmin.readonly_fields
+    fieldsets = (
+        (None, {
+            'fields': ('enrollment', 'modelVehicle', 'brand', 'driver'),
+        }),
+        ('Audit', {
+            'fields': BaseModelAdmin.readonly_fields
+        })
+    )
+    list_display = ('id', 'enrollment', 'modelVehicle', 'brand',
+                    'driver', 'creation_date', 'update_date')
+    list_filter = ('enrollment', 'modelVehicle',
+                   'brand', 'driver', 'creation_date')
