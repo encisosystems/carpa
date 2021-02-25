@@ -69,3 +69,22 @@ class Driver(BaseModel):
     def __str__(self):
         return self.name
 
+class Vehicle(BaseModel, models.Model):
+    """
+    """
+
+    enrollment = models.CharField(max_length=5)
+    modelVehicle = models.IntegerField(default=0)
+    brand = models.CharField(max_length=20)
+    driver = models.ForeignKey(Driver, on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Vehicle'
+        verbose_name_plural = 'Vehicles'
+
+    def __str__(self):
+        return self.enrollment
+
+    def get_absolute_url(self):
+        return reverse("_detail", kwargs={"pk": self.pk})
+
