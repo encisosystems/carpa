@@ -77,14 +77,14 @@ class Vehicle(BaseModel, models.Model):
     model = models.CharField(max_length=64, blank=True)
     brand = models.CharField(max_length=20, blank=True)
     details = models.CharField(max_length=128, blank=True)
-    driver = models.ForeignKey(Driver, on_delete=models.CASCADE, blank = True)
+    driver = models.ForeignKey(Driver, on_delete=models.CASCADE, null=True, blank=True)
 
     class Meta:
         verbose_name = 'Vehicle'
         verbose_name_plural = 'Vehicles'
 
     def __str__(self):
-        return self.enrollment
+        return self.plate
 
     def get_absolute_url(self):
         return reverse("_detail", kwargs={"pk": self.pk})
