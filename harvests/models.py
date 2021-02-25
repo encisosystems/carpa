@@ -43,3 +43,22 @@ class Bunch(BaseModel, models.Model):
 
     def __str__(self):
         return f'Bunch-{self.pk}'
+
+
+class Harvester(BaseModel, models.Model):
+    """
+
+    """
+
+    name = models.CharField(max_length=128, blank=True)
+    address = models.CharField(max_length=64, blank=True)
+    email = models.EmailField(max_length=64, blank=True)
+    phone = models.CharField(max_length=16, blank=True)
+    web = models.CharField(max_length=128, blank=True)
+
+    class Meta:
+        verbose_name = 'Harvester'
+        verbose_name_plural = 'Harvesters'
+
+    def __str__(self):
+        return self.name
