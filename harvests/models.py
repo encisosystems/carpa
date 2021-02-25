@@ -45,7 +45,7 @@ class Bunch(BaseModel, models.Model):
         return f'Bunch-{self.pk}'
 
 
-class Harvester(BaseModel, models.Model):
+class Harvester(BaseModel):
     """
 
     """
