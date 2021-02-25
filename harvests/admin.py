@@ -1,6 +1,6 @@
 from django.contrib.gis import admin
 from django.contrib.admin import register
-from harvests.models import Bunch, CategoryBunch
+from harvests.models import Bunch, CategoryBunch, Harvester
 from main.admin import BaseModelAdmin
 
 
@@ -32,3 +32,18 @@ class CategoryBunchAdmin(admin.ModelAdmin):
     )
     list_display = ('id', 'name', 'creation_date', 'update_date')
     list_filter = ('creation_date',)
+
+
+@register(Harvester)
+class HarvesterAdmin(admin.ModelAdmin):
+    readonly_fields = BaseModelAdmin.readonly_fields
+    fieldsets = (
+        (None, {
+            'fields': (BaseModelAdmin.readonly_fields,)
+        }),
+        ('Category', {
+            'fields': ('name', 'address', 'email', 'phone', 'web')
+        })
+    )
+    list_display = ('id', 'name', 'creation_date', 'update_date')
+    list_filter = ('name',)
