@@ -77,7 +77,7 @@ class Vehicle(BaseModel, models.Model):
     model = models.CharField(max_length=64, blank=True)
     brand = models.CharField(max_length=20, blank=True)
     details = models.CharField(max_length=128, blank=True)
-    driver = models.ForeignKey(Driver, on_delete=models.CASCADE, blank = true)
+    driver = models.ForeignKey(Driver, on_delete=models.CASCADE, blank = True)
 
     class Meta:
         verbose_name = 'Vehicle'
