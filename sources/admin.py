@@ -66,10 +66,10 @@ class VehicleAdmin(admin.ModelAdmin):
     readonly_fields = BaseModelAdmin.readonly_fields
     fieldsets = (
         (None, {
-            'fields': ('plate', 'model', 'brand', 'details', 'driver'),
+            'fields': (BaseModelAdmin.readonly_fields),
         }),
-        ('Audit', {
-            'fields': BaseModelAdmin.readonly_fields
+        ('Vehicle', {
+            'fields': ('plate', 'model', 'brand', 'details', 'driver')
         })
     )
     list_display = ('id', 'plate', 'model', 'brand', 'details',
