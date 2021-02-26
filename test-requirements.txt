@@ -1,0 +1,11 @@
+# Code coverage measurement for Python
+coverage==5.4
+
+# Django template coverage.py plugin
+django_coverage_plugin==1.8.0
+
+# Used for get traceback when using parallel tests
+tblib==1.7.0
+
+sqlparse
+sqlalchemy
