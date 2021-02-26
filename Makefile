@@ -19,6 +19,12 @@ testfixture:
 test:
 	docker exec -it carpa ./manage.py test
 
+testapp:
+	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
+
+testtag:
+	docker exec -it carpa ./manage.py test --noinput --tag=$(tag)
+
 statics:
 	docker exec -it carpa ./manage.py collectstatic --noinput
 

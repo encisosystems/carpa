@@ -17,6 +17,7 @@ node_modules/
 build/
 tests/report/
 env/
+venv/
 
 media/*
 !media/.keep

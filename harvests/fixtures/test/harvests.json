@@ -1,0 +1,68 @@
+[
+{
+    "model": "harvests.categorybunch",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-02-15T18:46:58.777Z",
+        "update_date": "2021-02-23T00:10:22.427Z",
+        "is_active": true,
+        "name": "maturity : green",
+        "description": "Test description"
+    }
+},
+{
+    "model": "harvests.categorybunch",
+    "pk": 10001,
+    "fields": {
+        "creation_date": "2021-02-15T18:47:10.349Z",
+        "update_date": "2021-02-23T00:10:13.183Z",
+        "is_active": true,
+        "name": "maturity : mature",
+        "description": "Test description"
+    }
+},
+{
+    "model": "harvests.categorybunch",
+    "pk": 10002,
+    "fields": {
+        "creation_date": "2021-02-17T12:32:07.854Z",
+        "update_date": "2021-02-23T00:10:04.389Z",
+        "is_active": true,
+        "name": "maturity : cob",
+        "description": "Fruit detachment: 100%"
+    }
+},
+{
+    "model": "harvests.categorybunch",
+    "pk": 10003,
+    "fields": {
+        "creation_date": "2021-02-23T00:10:46.711Z",
+        "update_date": "2021-02-23T00:10:46.711Z",
+        "is_active": true,
+        "name": "maturity : overmature",
+        "description": ""
+    }
+},
+{
+    "model": "harvests.categorybunch",
+    "pk": 10004,
+    "fields": {
+        "creation_date": "2021-02-23T00:11:53.511Z",
+        "update_date": "2021-02-23T00:11:53.511Z",
+        "is_active": true,
+        "name": "maturity : other",
+        "description": ""
+    }
+},
+{
+    "model": "harvests.bunch",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-02-15T18:47:32.185Z",
+        "update_date": "2021-02-15T18:47:32.185Z",
+        "is_active": true,
+        "category": 10000,
+        "weight": "45.27"
+    }
+}
+]
