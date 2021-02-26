@@ -25,6 +25,15 @@ testapp:
 testtag:
 	docker exec -it carpa ./manage.py test --noinput --tag=$(tag)
 
+cov-test:
+	docker exec -it carpa coverage run ./manage.py test $(app) -v 2 --keepdb
+
+cov-report:
+	docker exec -it carpa coverage report
+
+cov-report-html:
+	docker exec -it carpa coverage html
+
 statics:
 	docker exec -it carpa ./manage.py collectstatic --noinput
 
