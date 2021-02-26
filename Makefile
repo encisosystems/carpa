@@ -19,6 +19,9 @@ testfixture:
 test:
 	docker exec -it carpa ./manage.py test
 
+cov-test-all:
+	docker exec -it carpa coverage run ./manage.py test -v 2 --keepdb
+
 testapp:
 	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
 
