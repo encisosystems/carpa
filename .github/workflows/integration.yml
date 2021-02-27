@@ -3,7 +3,7 @@ name: CARPA CI
 on:
   pull_request:
     types: [opened, reopened]
-    branches:  [master, develop]
+    branches: [master, develop]
 
 jobs:
   build:
