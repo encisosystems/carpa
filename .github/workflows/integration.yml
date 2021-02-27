@@ -29,4 +29,5 @@ jobs:
 
       - name: Run Tests
         run: |
-          pip list
+          env DJANGO_SETTINGS_MODULE="test_project.dp_test_settings" coverage run --source='.' manage.py test
+          coverage report
