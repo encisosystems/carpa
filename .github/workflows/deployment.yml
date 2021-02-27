@@ -39,7 +39,8 @@ jobs:
 
       - name: Run Test
         run: |
-          pip list
+          coverage --version
+          env DJANGO_SETTINGS_MODULE="test_project.dp_test_settings" coverage run --source='.' manage.py test
 
   deploy:
     runs-on: ubuntu-20.04
