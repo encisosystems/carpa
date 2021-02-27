@@ -26,7 +26,7 @@ testapp:
 	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
 
 testtag:
-	docker exec -it carpa ./manage.py test --noinput --keepdb --tag=$(tag) -v 2
+	docker exec -it carpa ./manage.py test --no-input --keepdb --tag=$(tag) -v 2
 
 cov-test:
 	docker exec -it carpa coverage run ./manage.py test $(app) -v 2 --keepdb
