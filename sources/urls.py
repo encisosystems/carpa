@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from sources.views import vehicles, origin
+from sources.views import vehicles, parcel
 
 # api imports
 
