@@ -7,5 +7,5 @@ def vehicles(request):
     context = {'vehicles':vehicles}  
     return render(request, "vehicles.html", context)
 
-def origin(request):   
-    return render(request, "origin.html")
+def parcel(request):   
+    return render(request, "parcel.html")
