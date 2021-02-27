@@ -53,5 +53,3 @@ class TestHarvesters(TestCase):
     def test_delete_harvester(self):
         self.harvester.delete()
         self.assertNotIn(self.harvester, self.queryset)
-
-
