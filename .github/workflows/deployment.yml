@@ -37,6 +37,10 @@ jobs:
           pip install -r requirements.txt
           pip install -r test-requirements.txt
 
+      - name: Run Test
+        run: |
+          pip list
+
   deploy:
     runs-on: ubuntu-20.04
     steps:
