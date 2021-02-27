@@ -1,7 +1,5 @@
 from django.test import TestCase, Client
 from django.urls import reverse
-from sources.models import Vehicle
-import json
 
 
 class TestViews(TestCase):

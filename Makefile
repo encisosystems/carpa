@@ -19,6 +19,9 @@ testfixture:
 test:
 	docker exec -it carpa ./manage.py test
 
+test_sorce:
+	docker exec -it carpa ./manage.py test sources
+
 testapp:
 	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
 
