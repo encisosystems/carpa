@@ -9,5 +9,5 @@ from sources.views import vehicles, parcel
 # general urls
 urlpatterns = [
     path('vehicles', vehicles, name="vehicles"),
-    path('parcel', origin, name="parcel"),
+    path('parcel', parcel, name="parcel"),
 ]

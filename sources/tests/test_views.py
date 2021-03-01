@@ -10,10 +10,10 @@ class TestViews(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'vehicles.html')
 
-    def test_origin_GET(self):
+    def test_parcel_GET(self):
         client = Client()
-        response = client.get(reverse('origin'))
+        response = client.get(reverse('parcel'))
         self.assertEquals(response.status_code, 200)
-        self.assertTemplateUsed(response, 'origin.html')
+        self.assertTemplateUsed(response, 'parcel.html')
 
 
