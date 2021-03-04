@@ -53,3 +53,33 @@ class TestHarvesters(TestCase):
     def test_delete_harvester(self):
         self.harvester.delete()
         self.assertNotIn(self.harvester, self.queryset)
+
+@tag('bunch')
+class TestHarvesters(TestCase):
+    fixtures = ['test/harvests.json']
+
+    def setUp(self):
+        self.queryset = Bunch.objects.all()
+        self.bunch = Bunch.objects.get(pk=10000)
+        self.category = CategoryBunch.objects.get(pk=10000)
+
+    def test_query_bunch(self):
+        bunch_is_active = self.bunch.is_active
+        self.assertEqual(bunch_is_active, True)
+
+    def test_create_bunch(self):
+        new_bunch = Bunch.objects.create(
+            is_active=True,
+            category=self.category,
+            weight=20.5
+        )
+        self.assertEqual(new_bunch.is_active, True)
+
+    def test_update_bunch(self):
+        self.bunch.weight = 20.5
+        self.bunch.save()
+        self.assertEqual(self.bunch.weight, 20.5)
+
+    def test_delete_bunch(self):
+        self.bunch.delete()
+        self.assertNotIn(self.bunch, self.queryset)
