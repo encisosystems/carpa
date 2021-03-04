@@ -53,3 +53,8 @@ class TestHarvesters(TestCase):
     def test_delete_harvester(self):
         self.harvester.delete()
         self.assertNotIn(self.harvester, self.queryset)
+
+    def test_update_harvester(self):
+        Harvester.objects.filter(pk=10002).update(name='Oscar')
+        modified_harvester = Harvester.objects.get(pk=10002)
+        self.assertNotEqual(modified_harvester.name, 'Fabian')
