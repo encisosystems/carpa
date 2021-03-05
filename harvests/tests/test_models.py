@@ -65,7 +65,8 @@ class TestBunchBatch(TestCase):
         self.bunchbatch= BunchBatch.objects.get(pk=10000)
         self.parcel = Parcel.objects.get(pk=10000)
         self.vehicle = Vehicle.objects.get(pk=10000)
-        self.bunch= Bunch.objects.get(pk=10000)     
+        self.bunch= Bunch.objects.get(pk=10000) 
+        self.bunch2= Bunch.objects.get(pk=10001)     
         self.harvester = Harvester.objects.get(pk=10000)
 
     def test_query_bunchbatch(self):
@@ -83,9 +84,18 @@ class TestBunchBatch(TestCase):
         new_bunchbatch.harvesters.add(self.harvester);
         self.assertEqual( new_bunchbatch.harvesters.get(pk=10000).name, 'Andres Cabanzo')
 
+    def test_update_bunchbatch(self):
+        self.bunchbatch.notes='test-update'
+        self.bunchbatch.save()
+        self.assertEqual(self.bunchbatch.notes, 'test-update')
+
     def test_delete_bunchbatch(self):
         self.bunchbatch.delete()
         self.assertNotIn(self.bunchbatch, self.queryset)
+	
+
+
+    
 
 
            
