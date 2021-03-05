@@ -1,0 +1,30 @@
+[
+{
+    "model": "sources.vehicle",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-04T15:54:44.970Z",
+        "update_date": "2021-03-04T15:54:44.970Z",
+        "is_active": true,
+        "plate": "T12345",
+        "model": "2000",
+        "brand": "Mercedez",
+        "details": "it´s a particular vehicle",
+        "driver": null
+    }
+},
+{
+    "model": "sources.vehicle",
+    "pk": 10001,
+    "fields": {
+        "creation_date": "2021-03-04T15:54:44.970Z",
+        "update_date": "2021-03-04T15:54:44.970Z",
+        "is_active": true,
+        "plate": "T54321",
+        "model": "2002",
+        "brand": "Kia",
+        "details": "it´s a particular vehicle",
+        "driver": null
+    }
+}
+]
