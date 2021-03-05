@@ -1,0 +1,126 @@
+[
+{
+    "model": "harvests.categorybunch",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T03:00:05.275Z",
+        "update_date": "2021-03-02T03:00:05.275Z",
+        "is_active": true,
+        "name": "Verde",
+        "description": ""
+    }
+},
+{
+    "model": "harvests.bunch",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T03:00:14.753Z",
+        "update_date": "2021-03-02T03:00:14.753Z",
+        "is_active": true,
+        "category": 10000,
+        "weight": "10.00"
+    }
+},
+{
+    "model": "harvests.bunch",
+    "pk": 10001,
+    "fields": {
+        "creation_date": "2021-03-02T03:01:30.332Z",
+        "update_date": "2021-03-02T03:01:30.332Z",
+        "is_active": true,
+        "category": 10000,
+        "weight": "56.00"
+    }
+},
+{
+    "model": "harvests.harvester",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T03:02:49.458Z",
+        "update_date": "2021-03-02T03:02:49.458Z",
+        "is_active": true,
+        "name": "Andres Cabanzo",
+        "address": "Km 7 via pto Lopez",
+        "email": "cabanzo@test.com",
+        "phone": "3102356876",
+        "web": ""
+    }
+},
+{
+    "model": "harvests.bunchbatch",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T03:04:09.714Z",
+        "update_date": "2021-03-02T03:04:09.714Z",
+        "is_active": true,
+        "notes": "test",
+        "delivery_time": "2021-03-01T17:00:00Z",
+        "parcel": 10000,
+        "vehicle": 10000,
+        "bunches": [
+            10000
+        ],
+        "harvesters": [
+            10000
+        ]
+    }
+},
+{
+    "model": "sources.parcelowner",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T02:51:44.845Z",
+        "update_date": "2021-03-02T02:51:44.845Z",
+        "is_active": true,
+        "first_name": "Andres",
+        "last_name": "Rodriguez",
+        "organization": "Test",
+        "address_1": "Calle 23 # 45-89",
+        "address_2": "",
+        "email": "andres@test.com",
+        "phone": "3142374589",
+        "website": "www.andres-test.com"
+    }
+},
+{
+    "model": "sources.parcel",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T02:51:52.236Z",
+        "update_date": "2021-03-02T02:51:52.236Z",
+        "is_active": true,
+        "name": "Parcela 1 - test",
+        "owner": 10000,
+        "extension": null,
+        "location": null
+    }
+},
+{
+    "model": "sources.driver",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T02:54:27.546Z",
+        "update_date": "2021-03-02T02:54:27.546Z",
+        "is_active": true,
+        "name": "Daniel",
+        "address": "calle 45 # 56-89",
+        "email": "daniel@test.com",
+        "phone": "3142377689",
+        "web": ""
+    }
+},
+{
+    "model": "sources.vehicle",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-02T02:54:30.429Z",
+        "update_date": "2021-03-02T02:54:30.429Z",
+        "is_active": true,
+        "plate": "HDT987",
+        "model": "2015",
+        "brand": "Chevrolet",
+        "details": "",
+        "driver": 10000
+    }
+}
+]
