@@ -19,6 +19,9 @@ testfixture:
 test:
 	docker exec -it carpa ./manage.py test
 
+test_harvest:
+	docker exec -it carpa ./manage.py test harvests -v 2
+
 testapp:
 	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
 
