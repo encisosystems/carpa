@@ -22,5 +22,11 @@ class TestViews(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'bunchcategory.html')
 
+    def test_sensor_GET(self):
+        client = Client()
+        response = client.get(reverse('sensor'))
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'sensor.html')
+
 
 

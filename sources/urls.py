@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from sources.views import vehicles, parcel,sensor
+from sources.views import vehicles, parcel
 
 # api imports
 
@@ -10,5 +10,5 @@ from sources.views import vehicles, parcel,sensor
 urlpatterns = [
     path('vehicles', vehicles, name="vehicles"),
     path('parcel', origin, name="parcel"),
-    path('sensor', sensor, name="sensor"),
+    
 ]

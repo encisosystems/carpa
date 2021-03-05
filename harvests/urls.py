@@ -1,6 +1,6 @@
 # general imports
 from django.urls import path
-from harvests.views import people, harvests,bunchbatch,bunch,bunchcategory
+from harvests.views import people, harvests,bunchbatch,bunch,bunchcategory,sensor
 
 # api imports
 
@@ -13,4 +13,5 @@ urlpatterns = [
     path('bunchbatch', bunchbatch, name="bunchbatch"),
     path('bunch', bunch, name="bunch"),
     path('bunchcategory', bunchcategory, name="bunchcategory"),
+    path('sensor', sensor, name="sensor"),
 ]
