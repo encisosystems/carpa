@@ -17,8 +17,4 @@ class TestViews(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'origin.html')
 
-    def test_people_GET(self):
-        client = Client()
-        response = client.get(reverse('people'))
-        self.assertEquals(response.status_code, 200)
-        self.assertTemplateUsed(response, 'people.html')
+
