@@ -1,0 +1,84 @@
+name: CARPA CI/CD
+
+on:
+  pull_request:
+    types: [ opened, reopened ]
+    branches: [ master, develop ]
+
+  push:
+    branches: [master, develop]
+
+jobs:
+  build-testing:
+    runs-on: ubuntu-20.04
+    env:
+      DJANGO_SETTINGS_MODULE: "carpa.settings.development"
+
+    services:
+      postgres:
+        image: postgis/postgis:12-3.0
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        # Needed because the postgres container does not provide a healthcheck
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    strategy:
+      max-parallel: 4
+      fail-fast: false
+      matrix:
+        python-versions: [ 3.8 ]
+        django-versions: [ 3.1 ]
+
+    steps:
+      - name: Set up Python ${{ matrix.python-versions }}
+        uses: actions/checkout@v2
+        with:
+          python-version: ${{ matrix.python-versions }}
+
+      - name: Cache pip
+        uses: actions/cache@v2
+        with:
+          # This path is specific to Ubuntu
+          path: ~/.cache/pip
+          # Look to see if there is a cache hit for the corresponding requirements file
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install gettext -y
+          sudo apt-get --assume-yes install binutils libproj-dev gdal-bin python3-gdal
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r test-requirements.txt
+
+      - name: Run test
+        # export "PATH=/home/runner/.local/bin:$PATH" is needed to avoid a script error
+        run: |
+          export "PATH=/home/runner/.local/bin:$PATH"
+          coverage run ./manage.py test --no-input --keepdb -v 2
+          coverage report
+
+  deployment:
+    runs-on: ubuntu-20.04
+    needs: [build-testing]
+    if: ${{ github.event_name == 'push' }}
+    steps:
+      - uses: actions/checkout@v1
+      - name: Dokku deployment
+        # Please check https://github.com/marketplace/actions/dokku-github-action
+        uses: vitalyliber/dokku-github-action@v6.0
+        env:
+          # Dokku droplet private key. You must add the private key in your secrets.
+          # This private key must not have a passphrase
+          PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          # Dokku droplet IPv4
+          HOST: 157.230.57.158
+          # App name
+          PROJECT: carpa

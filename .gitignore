@@ -25,3 +25,10 @@ media/*
 
 /static/
 !static/.keep
+
+# coverage related files/folders
+htmlcov/*
+.coverage
+.coverage.*
+coverage.xml
+*.cover

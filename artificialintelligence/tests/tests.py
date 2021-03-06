@@ -1,3 +1,1 @@
-from django.test import TestCase
-
-# Create your tests here.
+from artificialintelligence.tests.test_models import *

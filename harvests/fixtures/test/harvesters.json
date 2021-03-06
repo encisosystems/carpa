@@ -1,0 +1,30 @@
+[
+{
+  "model": "harvests.harvester",
+  "pk": 10000,
+  "fields": {
+    "creation_date": "2021-02-27T14:14:18.842Z",
+    "update_date": "2021-02-27T14:14:18.842Z",
+    "is_active": true,
+    "name": "Juan",
+    "address": "Calle 4 #25-04",
+    "email": "juan@test.com",
+    "phone": "3104139891",
+    "web": "www.juan.test.com"
+  }
+},
+{
+  "model": "harvests.harvester",
+  "pk": 10001,
+  "fields": {
+    "creation_date": "2021-02-27T14:14:18.842Z",
+    "update_date": "2021-02-27T14:14:18.842Z",
+    "is_active": true,
+    "name": "John",
+    "address": "Calle 5 #51-02",
+    "email": "john@test.com",
+    "phone": "3202169899",
+    "web": "www.john.test.com"
+  }
+}
+]

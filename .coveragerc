@@ -1,0 +1,19 @@
+[run]
+disable_warnings = already-imported-a-file-that-will-be-measured
+source = .
+
+omit =
+    */migrations/*
+    */.local/*
+    */htmlcov/*
+    */build-cache/*
+    */dummy_rails/*
+    */test.py
+    */tests.py
+    */tests/*
+    */static/*
+
+   Already imported a file that will be measured
+
+plugins =
+    django_coverage_plugin

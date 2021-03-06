@@ -1,0 +1,30 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 10000,
+    "fields": {
+      "username": "test_admin",
+      "first_name": "test",
+      "last_name": "",
+      "email": "test@carpa.com",
+      "password": "pbkdf2_sha256$36000$kxuO9QEDuPBK$fsjwtc0alWslTVkAG8AhBeBcWDx0UlvrxtF/euS63Ts=",
+      "is_staff": true,
+      "is_superuser": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10001,
+    "fields": {
+      "username": "test_standard",
+      "first_name": "test",
+      "last_name": "",
+      "email": "test@carpa.com",
+      "password": "pbkdf2_sha256$36000$kxuO9QEDuPBK$fsjwtc0alWslTVkAG8AhBeBcWDx0UlvrxtF/euS63Ts=",
+      "is_staff": false,
+      "is_superuser": false,
+      "is_active": true
+    }
+  }
+]

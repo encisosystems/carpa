@@ -19,11 +19,23 @@ testfixture:
 test:
 	docker exec -it carpa ./manage.py test
 
+cov-test-all:
+	docker exec -it carpa coverage run ./manage.py test -v 2 --keepdb
+
 testapp:
 	docker exec -it carpa ./manage.py test $(app) --noinput -v 3
 
 testtag:
-	docker exec -it carpa ./manage.py test --noinput --tag=$(tag)
+	docker exec -it carpa ./manage.py test --no-input --keepdb --tag=$(tag) -v 2
+
+cov-test:
+	docker exec -it carpa coverage run ./manage.py test $(app) -v 2 --keepdb
+
+cov-report:
+	docker exec -it carpa coverage report
+
+cov-report-html:
+	docker exec -it carpa coverage html
 
 statics:
 	docker exec -it carpa ./manage.py collectstatic --noinput

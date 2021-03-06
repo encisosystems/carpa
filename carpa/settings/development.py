@@ -8,6 +8,7 @@ SECRET_KEY = 'p3gm=o9o+_r(5*o$$kn#h*8#n1r)aquf^^nm_v5u0pn^qa$=4*'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
+
 def show_toolbar(request):
     """
     The default callback checks if the IP is internal, but docker's IP
@@ -17,15 +18,14 @@ def show_toolbar(request):
     """
     return True
 
-# CORS Config: install django-cors-headers and uncomment the following to allow CORS from any origin
 
+# CORS Config: install django-cors-headers and uncomment the following to allow CORS from any origin
 DEV_APPS = [
     'debug_toolbar',
     # 'corsheaders'
 ]
 
 INSTALLED_APPS += DEV_APPS
-
 
 
 DEV_MIDDLEWARE = [
@@ -57,6 +57,19 @@ if os.environ.get('DATABASE_URL', ''):
         'default': dj_database_url.config()
     }
     DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
+
+# Database for CI/CD github actions
+elif os.environ.get('GITHUB_WORKFLOW'):
+    DATABASES = {
+        'default': {
+           'ENGINE': 'django.contrib.gis.db.backends.postgis',
+           'NAME': 'postgres',
+           'USER': 'postgres',
+           'PASSWORD': 'postgres',
+           'HOST': '127.0.0.1',
+           'PORT': '5432',
+        }
+    }
 
 else:
     DATABASES = {
