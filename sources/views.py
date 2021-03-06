@@ -20,5 +20,5 @@ def crud_vehicle(request):
    context = {'form':form}  
    return render(request, "crud_vehicle.html", context)
 
-def origin(request):   
-   return render(request, "origin.html")
+def parcel(request):   
+   return render(request, "parcel.html")
