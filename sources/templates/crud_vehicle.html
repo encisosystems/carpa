@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Crud Carpa
+{% endblock title %}
+
+
+
+{% block content %}
+    <div class="content row ">
+        <div class="col-12 text-center">
+            <h1 class=" ">Vehículo</h1>
+        </div>
+            <form method="post" class="col-11 mx-4">
+                {% csrf_token %}
+
+                {% for field in form %}
+                    <div class="form-group">
+                        {{ field.label_tag }}
+                        {{ field }}
+                    </div>
+                {% endfor %}
+                {% comment %} <div class="form-group">
+                    <label for="InputPlate">Placa</label>
+                    <input type="text" class="form-control" id="InputPlate" aria-describedby="InputHelpPlate">
+                    <small id="InputHelpPlate" class="form-text text-muted">Placa</small>
+                </div>
+                <div class="form-group">
+                    <label for="InputBrand">Marca</label>
+                    <input type="text" class="form-control" id="InputBrand">
+                </div>
+                <div class="form-group">
+                    <label for="InputModel">Modelo</label>
+                    <input type="text" class="form-control" id="InputModel">
+                </div>
+                <div class="form-group">
+                    <label for="InputDetails">Detalles</label>
+                    <input type="text" class="form-control" id="InputDetails">
+                </div>
+                <div class="form-group">
+                    <label for="SelectDriver">Conductor</label>
+                    <select class="form-control" id="SelectDriver">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    </select>
+                </div> {% endcomment %}
+                <div class="col-12 row form-group mt-md-5">
+                    <a href="/vehicles" class="col-5 btn btn-secondary offset-1">Regresar</a>
+                    <button type="submit" class="col-5 btn btn-success offset-1">Guardar</button>
+                </div>
+            </form>
+    </div>
+{% endblock content %}
+
+{% block footer_login %}
+
+{% endblock footer_login %}
+
