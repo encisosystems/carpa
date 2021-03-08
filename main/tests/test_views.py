@@ -9,3 +9,4 @@ class TestViews(TestCase):
         response = client.get(reverse('home'))
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'home.html')
+
