@@ -4,6 +4,7 @@ from django.urls import reverse
 
 class TestViews(TestCase):
 
+<<<<<<< HEAD
     def test_bunch_GET(self):
         client = Client()
         response = client.get(reverse('bunch'))
@@ -27,6 +28,12 @@ class TestViews(TestCase):
         response = client.get(reverse('sensor'))
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'sensor.html')
+        
+    def test_people_GET(self):
+        client = Client()
+        response = client.get(reverse('people'))
+        self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'people.html')
 
     def test_harvests_GET(self):
         client = Client()

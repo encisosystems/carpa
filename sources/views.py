@@ -11,7 +11,7 @@ def vehicles(request):
 def crud_vehicle(request):
 
    form = VehicleForm()
-    
+   
    if request.method == 'POST':
       form = VehicleForm(request.POST)
       if form.is_valid():
@@ -22,3 +22,4 @@ def crud_vehicle(request):
 
 def parcel(request):   
     return render(request, "parcel.html")
+
