@@ -26,5 +26,19 @@
     "phone": "3202169899",
     "web": "www.john.test.com"
   }
+},
+{
+  "model": "harvests.harvester",
+  "pk": 10002,
+  "fields": {
+    "creation_date": "2021-01-27T14:14:18.842Z",
+    "update_date": "2021-01-27T14:14:18.842Z",
+    "is_active": true,
+    "name": "Fabian",
+    "address": "Calle 14 #29-02",
+    "email": "fabian@test.com",
+    "phone": "321234567",
+    "web": "www.fabian.test.com"
+  }
 }
 ]

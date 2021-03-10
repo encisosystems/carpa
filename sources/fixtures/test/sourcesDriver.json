@@ -1,0 +1,30 @@
+[
+{
+    "model": "sources.driver",
+    "pk": 10000,
+    "fields": {
+        "creation_date": "2021-03-09T05:23:44.479Z",
+        "update_date": "2021-03-09T05:23:44.479Z",
+        "is_active": true,
+        "name": "El barto",
+        "address": "Calle falsa 123",
+        "email": "pato.feliz@fox.com",
+        "phone": "018000930930",
+        "web": "www.disney.com"
+    }
+},
+{
+    "model": "sources.driver",
+    "pk": 10001,
+    "fields": {
+        "creation_date": "2021-03-09T05:24:00.399Z",
+        "update_date": "2021-03-09T05:24:00.399Z",
+        "is_active": true,
+        "name": "El homo",
+        "address": "Av. Siempre viva 742",
+        "email": "pato.feliz@fox.com",
+        "phone": "0",
+        "web": "www.disney.com"
+    }
+}
+]
