@@ -1,0 +1,19 @@
+[
+{
+  "model": "sources.parcelowner",
+  "pk": 10000,
+  "fields": {
+    "creation_date": "2021-02-27T14:14:18.842Z",
+    "update_date": "2021-02-27T14:14:18.842Z",
+    "is_active": true,
+    "first_name": "Juan",
+    "last_name": "Trujillo",
+    "organization": "Palmera",
+    "address_1": "calle 5",
+    "address_2": "calle 6",
+    "email": "c@g.com",
+    "phone": "3104139891",
+    "website": "www.unillanos.edu.co"
+  }
+}
+]
